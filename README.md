@@ -2,6 +2,8 @@
 
 NibMacro is a Swift package that provides a custom macro for generating boilerplate code related to nib (XIB) file handling in Swift projects. It leverages Swift's macro system and the [swift-syntax](https://github.com/apple/swift-syntax) library.
 
+(Implemented as a learning exercise for Swift Macros)
+
 ## Features
 
 - **NibGenerable Macro**:  
