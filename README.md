@@ -46,3 +46,7 @@ See the `Sources/Macros` directory for macro source code and `Tests/NibMacroTest
 ## License
 
 MIT
+
+## Note
+
+This package is unlikely to be updated frequently. Sorry for the inconvenience.
