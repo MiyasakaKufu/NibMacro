@@ -12,19 +12,25 @@ NibMacro is a Swift package that provides a custom macro for generating boilerpl
 
 1. Add `NibMacro` as a dependency in your `Package.swift`:
 
-    ```swift
-    .package(url: "https://github.com/your-username/NibMacro.git", from: "1.0.0")
-    ```
+```swift
+.package(url: "https://github.com/MiyasakaKufu/NibMacro.git", from: "0.0.1")
+```
 
 2. Import and use the macro in your code:
 
-    ```swift
-    @NibGenerable
-    class MyCustomView: UIView {
-        // The macro will generate:
-        // static var nibName: String { "MyCustomView" }
-    }
-    ```
+```swift
+@NibGenerable
+class MyCustomView: UIView {
+    // The macro will generate:
+    // static var nibName: String { "MyCustomView" }
+}
+
+@NibGenerable
+class MyCustomView2<T>: UIView {
+    // The macro will generate:
+    // static var nibName: String { "MyCustomView2" }
+}
+```
 
 ## Requirements
 
