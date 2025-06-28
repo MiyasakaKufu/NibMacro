@@ -43,7 +43,7 @@ class MyCustomView2<T>: UIView {
 ## Development
 
 This package uses [swift-syntax](https://github.com/apple/swift-syntax) for macro implementation.  
-See the `Sources/Macros` directory for macro source code and `Tests/NibMacroTests` for usage examples.
+See the `Sources/Macros` directory for macro source code ~~and `Tests/NibMacroTests` for usage examples~~.
 
 ## License
 
